@@ -8,7 +8,8 @@ html {
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
   background-image: url('../images/banner-landingpage.jpg');
-  height: 800px;
+  height: 700px;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
