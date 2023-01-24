@@ -36,7 +36,7 @@ html {
   margin-bottom: 40px;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (min-width:450px) and (max-width: 1000px) {
   .main-content {
     top: 2.5625rem;
   }
@@ -117,6 +117,7 @@ header .mobile {
     line-height: 1.6;
     color: white;
   }
+
 }
 
 /* Sign Up Section */
@@ -401,4 +402,16 @@ footer .copyright {
   footer .content {
     font-size: .625rem;
   }
+}
+
+@media only screen and (min-width: 700px) and (max-width:1000px){
+  header .logo{
+    float: left;
+    display: flex;
+    padding-left: 35px;
+  }
+  .quotes-section{
+    float: left;
+  }
+
 }
