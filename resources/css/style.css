@@ -415,3 +415,11 @@ footer .copyright {
   }
 
 }
+@media only screen and (min-width: 1px) and (max-width: 700px){
+  header .logo{
+    display: none;
+  }
+  .quote-citation{
+    margin-top: 15px;
+  }
+} 
